@@ -13,3 +13,5 @@ deb http://old-releases.ubuntu.com/ubuntu/ mantic-updates main restricted univer
 deb http://old-releases.ubuntu.com/ubuntu/ mantic-security main restricted universe multiverse
 deb http://old-releases.ubuntu.com/ubuntu/ mantic-backports main restricted universe multiverse
 ```
+
+sudo nano /etc/apt/sources.list
