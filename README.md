@@ -20,3 +20,6 @@ sudo nano /etc/apt/sources.list
 
 https://github.com/user-attachments/assets/c2ce2774-3f2e-42c7-8d7b-1321ef8600e6
 
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ximimoments/katifetch&type=Date)](https://star-history.com/#ximimoments/katifetch&Date)
