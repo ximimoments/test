@@ -29,3 +29,5 @@ https://github.com/user-attachments/assets/c2ce2774-3f2e-42c7-8d7b-1321ef8600e6
 | Stars Over Time |
 |-----------------|
 | [![Star History](https://api.star-history.com/svg?repos=ximimoments/katifetch&type=Date)](https://star-history.com/#ximimoments/katifetch&Date) |
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ximimoments/katifetch,octocat/hello-world&type=Date)](https://star-history.com/#ximimoments/katifetch&Date)
