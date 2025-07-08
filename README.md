@@ -31,3 +31,5 @@ https://github.com/user-attachments/assets/c2ce2774-3f2e-42c7-8d7b-1321ef8600e6
 | [![Star History](https://api.star-history.com/svg?repos=ximimoments/katifetch&type=Date)](https://star-history.com/#ximimoments/katifetch&Date) |
 
 [![Star History Chart](https://api.star-history.com/svg?repos=ximimoments/katifetch,octocat/hello-world&type=Date)](https://star-history.com/#ximimoments/katifetch&Date)
+
+<blockquote class="reddit-embed-bq" style="height:500px" data-embed-height="546"><a href="https://www.reddit.com/r/unixporn/comments/1lu9m0z/gnome_simple_but_i_like_it/">[GNOME] Simple, but I like it</a><br> by<a href="https://www.reddit.com/user/sunref_/">u/sunref_</a> in<a href="https://www.reddit.com/r/unixporn/">unixporn</a></blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
