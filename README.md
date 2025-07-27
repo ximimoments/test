@@ -46,3 +46,15 @@ https://www.reddit.com/r/mascotas/comments/1lr6yu3/cuál_es_el_mensaje/?utm_sour
 
 
 https://www.reddit.com/r/mascotas/comments/1ltjfz9/me_ayudas_a_buscar_nombre_para_mí_adoptado/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+
+gdonavm
+
+https://drive.google.com/file/d/1SXQUmlo504LQ4tDJFFzcaqWTxP-fKF6J/view?usp=sharing
+
+https://drive.google.com/file/d/1rluWVwRUuCp83tJCcTGPLgCt9pPUUHMo/view?usp=sharing
+
+sudo apt install flatpak
+
+sudo apt install gnome-software-plugin-flatpak
+
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
