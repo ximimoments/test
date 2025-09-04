@@ -85,3 +85,4 @@ sudo mkswap /dev/sda3
 sudo mkfs.ext4 /dev/sda4
 
 sudo swapon /dev/sda3
+```
