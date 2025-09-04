@@ -100,3 +100,19 @@ Yes/No? tes
 parted: invalid token: tes
 Yes/No? yes                                                               
 (parted)      
+
+
+(parted) mkpart ESP fat32 1MiB 513MiB
+(parted) set 1 boot on
+(parted) mkpart primary ext4 513MiB 1537MiB
+(parted) mkpart primary linux-swap 1537MiB 5633MiB
+(parted) mkpart primary ext4 5633MiB 100%
+(parted) print        # para verificar cómo quedaron
+(parted) quit
+
+sudo mkfs.fat -F32 /dev/sda1
+sudo mkfs.ext4 /dev/sda2
+sudo mkswap /dev/sda3
+sudo mkfs.ext4 /dev/sda4
+
+sudo swapon /dev/sda3
