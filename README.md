@@ -61,28 +61,29 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 
 
 ```bash
-sudo parted /dev/sda mklabel gpt
+# 1. Crear nueva tabla GPT
+sudo parted /dev/sda mklabel gpt yes
 
+# 2. Crear partición EFI (512 MB)
 sudo parted -a optimal /dev/sda mkpart ESP fat32 1MiB 513MiB
 sudo parted /dev/sda set 1 boot on
 
+# 3. Crear partición /boot (1 GB)
 sudo parted -a optimal /dev/sda mkpart primary ext4 513MiB 1537MiB
 
+# 4. Crear partición swap (4 GB)
 sudo parted -a optimal /dev/sda mkpart primary linux-swap 1537MiB 5633MiB
 
+# 5. Crear partición raíz / (resto del disco)
 sudo parted -a optimal /dev/sda mkpart primary ext4 5633MiB 100%
 
-# EFI
-sudo mkfs.fat -F32 /dev/sda1
+# 6. Formatear cada partición
+sudo mkfs.fat -F32 /dev/sda1      # EFI
+sudo mkfs.ext4 /dev/sda2          # /boot
+sudo mkswap /dev/sda3             # swap
+sudo mkfs.ext4 /dev/sda4          # /
 
-# /boot
-sudo mkfs.ext4 /dev/sda2
-
-# swap
-sudo mkswap /dev/sda3
-
-# /
-sudo mkfs.ext4 /dev/sda4
-
+# 7. Activar swap
 sudo swapon /dev/sda3
+
 ```
