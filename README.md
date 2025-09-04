@@ -87,3 +87,16 @@ sudo mkfs.ext4 /dev/sda4          # /
 sudo swapon /dev/sda3
 
 ```
+❯ sudo parted /dev/sda            
+GNU Parted 3.6
+Using /dev/sda
+Welcome to GNU Parted! Type 'help' to view a list of commands.
+(parted) mklabel yes
+parted: invalid token: yes
+New disk label type? gpt
+Warning: The existing disk label on /dev/sda will be destroyed and all data on
+this disk will be lost. Do you want to continue?
+Yes/No? tes                                                               
+parted: invalid token: tes
+Yes/No? yes                                                               
+(parted)      
