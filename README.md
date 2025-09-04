@@ -125,3 +125,30 @@ sudo mkswap /dev/sda3
 sudo mkfs.ext4 /dev/sda4
 
 sudo swapon /dev/sda3
+
+
+
+
+
+
+
+
+liveuser on localhost-live ~ 
+❯ sudo parted /dev/sda 
+GNU Parted 3.6
+Using /dev/sda
+Welcome to GNU Parted! Type 'help' to view a list of commands.
+(parted) print
+Model: ATA Hitachi HTS54755 (scsi)
+Disk /dev/sda: 500GB
+Sector size (logical/physical): 512B/4096B
+Partition Table: gpt
+Disk Flags: 
+
+Number  Start   End     Size    File system     Name     Flags
+ 1      1049kB  538MB   537MB   fat32           ESP      boot, esp
+ 2      538MB   1612MB  1074MB  ext4            primary
+ 3      1612MB  5907MB  4295MB  linux-swap(v1)  primary  swap
+ 4      5907MB  500GB   494GB   ext4            primary
+
+(parted)      
