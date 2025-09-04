@@ -58,3 +58,30 @@ sudo apt install flatpak
 sudo apt install gnome-software-plugin-flatpak
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+
+```bash
+sudo parted /dev/sda mklabel gpt
+
+sudo parted -a optimal /dev/sda mkpart ESP fat32 1MiB 513MiB
+sudo parted /dev/sda set 1 boot on
+
+sudo parted -a optimal /dev/sda mkpart primary ext4 513MiB 1537MiB
+
+sudo parted -a optimal /dev/sda mkpart primary linux-swap 1537MiB 5633MiB
+
+sudo parted -a optimal /dev/sda mkpart primary ext4 5633MiB 100%
+
+# EFI
+sudo mkfs.fat -F32 /dev/sda1
+
+# /boot
+sudo mkfs.ext4 /dev/sda2
+
+# swap
+sudo mkswap /dev/sda3
+
+# /
+sudo mkfs.ext4 /dev/sda4
+
+sudo swapon /dev/sda3
