@@ -152,3 +152,23 @@ Number  Start   End     Size    File system     Name     Flags
  4      5907MB  500GB   494GB   ext4            primary
 
 (parted)      
+
+```bash
+sudo parted /dev/sda --script mklabel gpt \
+  mkpart ESP fat32 1MiB 513MiB \
+  set 1 boot on \
+  mkpart primary ext4 513MiB 1537MiB \
+  mkpart primary linux-swap 1537MiB 5633MiB \
+  mkpart primary ext4 5633MiB 46.6GiB \
+  mkpart primary ext4 46.6GiB 100%
+```
+
+
+```bash
+sudo mkfs.fat -F32 /dev/sda1
+sudo mkfs.ext4 /dev/sda2
+sudo mkswap /dev/sda3
+sudo mkfs.ext4 /dev/sda4
+sudo mkfs.ext4 /dev/sda5
+sudo swapon /dev/sda3
+```
