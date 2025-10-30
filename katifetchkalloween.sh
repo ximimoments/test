@@ -6,31 +6,38 @@ PROGNAME="katifetchkalloween"
 VERSION="1.0"
 INSTALL_PATH="/usr/local/bin/$PROGNAME"
 
+# === COLORS ===
+ORANGE='\033[0;33m'
+PURPLE='\033[0;35m'
+RED='\033[0;31m'
+BOLD='\033[1m'
+RESET='\033[0m'
+
 # === ASCII LOGO ===
 PUMPKIN=(
-"                  ***                         "
-"                  *****                       "
-"                    ****                      "
-"                     ****                     "
-"           ==========****==========           "
-"       ================================       "
-"     ====================================     "
-"    ======================================    "
-"   ========================================   "
-"  ==========================================  "
-"  ============%================%============  "
-" ===========%%%%==============%%%%=========== "
-" ==========%%%%%%============%%%%%%%========= "
-" ====================+%%%==================== "
-" ===================*%%%%%=================== "
-"  ===============+=====+==========+=========  "
-"  =========*%%%%%%%%%%%%%%%%%%%%%%==========  "
-"   =========%%%%%%%%%%%%%%%%%%%%%%=========   "
-"    =========%%%#%%%%%*=%%%%%=%%%=========    "
-"      ==================================      "
-"        ==============================        "
-"           ========================           "
-"                   ========                   "
+"${ORANGE}                  ***                         ${RESET}"
+"${ORANGE}                  *****                       ${RESET}"
+"${ORANGE}                    ****                      ${RESET}"
+"${ORANGE}                     ****                     ${RESET}"
+"${PURPLE}           ==========****==========           ${RESET}"
+"${PURPLE}       ================================       ${RESET}"
+"${PURPLE}     ====================================     ${RESET}"
+"${PURPLE}    ======================================    ${RESET}"
+"${PURPLE}   ========================================   ${RESET}"
+"${RED}  ==========================================  ${RESET}"
+"${RED}  ============%================%============  ${RESET}"
+"${RED} ===========%%%%==============%%%%=========== ${RESET}"
+"${RED} ==========%%%%%%============%%%%%%%========= ${RESET}"
+"${RED} ====================+%%%==================== ${RESET}"
+"${RED} ===================*%%%%%=================== ${RESET}"
+"${RED}  ===============+=====+==========+=========  ${RESET}"
+"${RED}  =========*%%%%%%%%%%%%%%%%%%%%%%==========  ${RESET}"
+"${RED}   =========%%%%%%%%%%%%%%%%%%%%%%=========   ${RESET}"
+"${RED}    =========%%%#%%%%%*=%%%%%=%%%=========    ${RESET}"
+"${PURPLE}      ==================================      ${RESET}"
+"${PURPLE}        ==============================        ${RESET}"
+"${ORANGE}           ========================           ${RESET}"
+"${ORANGE}                   ========                   ${RESET}"
 )
 
 # === RANDOM HALLOWEEN PHRASES ===
@@ -56,24 +63,25 @@ random_phrase() {
 print_logo() {
   if [ "$NO_LOGO" != "1" ]; then
     for line in "${PUMPKIN[@]}"; do
-      echo "$line"
+      echo -e "$line"
     done
   fi
 }
 
 print_info() {
   echo
-  echo "KATIFETCH KALLOWEEN EDITION v$VERSION"
+  echo -e "${BOLD}${ORANGE}KATIFETCH KALLOWEEN EDITION${RESET} ${PURPLE}v$VERSION${RESET}"
   echo "-----------------------------------------------"
-  echo "User:      $USER"
-  echo "Host:      $(hostname)"
-  echo "OS:        $(uname -s)"
-  echo "Kernel:    $(uname -r)"
-  echo "Shell:     $SHELL"
-  echo "Terminal:  $TERM"
+  echo -e "${BOLD}User:${RESET}      $USER"
+  echo -e "${BOLD}Host:${RESET}      $(hostname)"
+  echo -e "${BOLD}OS:${RESET}        $(uname -s)"
+  echo -e "${BOLD}Kernel:${RESET}    $(uname -r)"
+  echo -e "${BOLD}Shell:${RESET}     $SHELL"
+  echo -e "${BOLD}Terminal:${RESET}  $TERM"
   echo "-----------------------------------------------"
   echo
-  random_phrase
+  echo -e "${RED}$(random_phrase)${RESET}"
+  echo
 }
 
 # === HELP / INSTALLER ===
@@ -89,19 +97,19 @@ show_help() {
 }
 
 install_script() {
-  echo "Installing $PROGNAME to $INSTALL_PATH..."
+  echo -e "${PURPLE}Installing $PROGNAME to $INSTALL_PATH...${RESET}"
   sudo cp "$0" "$INSTALL_PATH"
   sudo chmod +x "$INSTALL_PATH"
-  echo "✅ Installed successfully! You can now run: $PROGNAME"
+  echo -e "${ORANGE}✅ Installed successfully! You can now run: ${BOLD}$PROGNAME${RESET}"
 }
 
 uninstall_script() {
   if [ -f "$INSTALL_PATH" ]; then
-    echo "Removing $INSTALL_PATH..."
+    echo -e "${RED}Removing $INSTALL_PATH...${RESET}"
     sudo rm -f "$INSTALL_PATH"
-    echo "🗑️  Uninstalled successfully."
+    echo -e "${PURPLE}🗑️  Uninstalled successfully.${RESET}"
   else
-    echo "⚠️  $PROGNAME is not installed."
+    echo -e "${RED}⚠️  $PROGNAME is not installed.${RESET}"
   fi
 }
 
