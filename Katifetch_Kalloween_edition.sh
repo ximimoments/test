@@ -5,23 +5,15 @@
 # Features: ASCII pumpkin logo, spooky phrases, basic system detection,
 # colors (orange/red/purple), --install to copy to /usr/local/bin
 # Usage: bash katifetchkallowen.sh [--install] [--no-logo] [--no-color]
-
-
-set -u
-
-
+set u
 PROGNAME="katifetchkallowen"
 VERSION="1.0"
 INSTALL_PATH="/usr/local/bin/$PROGNAME"
-
-
 # Default flags
 SHOW_LOGO=1
 USE_COLOR=1
-
-
-auto_detect_tty_width() {
-  local w
+# auto_detect_tty_width() {
+#  local w
   if [ -n "${COLUMNS:-}" ]; then
     w=$COLUMNS
    else
@@ -30,12 +22,10 @@ auto_detect_tty_width() {
    echo $w
  }
 
-
 # Colors
 if [ "$USE_COLOR" -eq 1 ] 2>/dev/null; then
    :
 fi
-
 
 ORANGE='\033[0;33m' # yellow/orange-ish
 RED='\033[0;31m'
@@ -44,10 +34,10 @@ BOLD='\033[1m'
 RESET='\033[0m'
 
 # Parse args
-for arg in "$@"; do
-  case "$arg" in
-    --no-logo) SHOW_LOGO=0 ;;
-    --no-color) USE_COLOR=0 ;;
+#for arg in "$@"; do
+case "$arg" in
+--no-logo) SHOW_LOGO=0 ;;
+--no-color) USE_COLOR=0 ;;
     --install)
     #Self-install
     if [ "$($id -u)" -ne 0]; then
