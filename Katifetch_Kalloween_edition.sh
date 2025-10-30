@@ -35,9 +35,9 @@ RESET='\033[0m'
 
 # Parse args
 #for arg in "$@"; do
-case "$arg" in
---no-logo) SHOW_LOGO=0 ;;
---no-color) USE_COLOR=0 ;;
+#case "$arg" in
+#--no-logo) SHOW_LOGO=0 ;;
+#--no-color) USE_COLOR=0 ;;
     --install)
     #Self-install
     if [ "$($id -u)" -ne 0]; then
