@@ -232,3 +232,9 @@ deb http://security.ubuntu.com/ubuntu jammy-security multiverse
 # For information about how to configure apt package sources,
 # see the sources.list(5) manual.
 
+
+
+sudo apt update
+sudo apt full-upgrade -y
+sudo apt dist-upgrade -y
+sudo reboot
