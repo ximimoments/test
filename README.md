@@ -13,6 +13,7 @@ deb http://old-releases.ubuntu.com/ubuntu/ mantic-updates main restricted univer
 deb http://old-releases.ubuntu.com/ubuntu/ mantic-security main restricted universe multiverse
 deb http://old-releases.ubuntu.com/ubuntu/ mantic-backports main restricted universe multiverse
 ```
+ubuntu 23.04
 ```bash
 deb http://old-releases.ubuntu.com/ubuntu/ lunar main restricted universe multiverse
 deb http://old-releases.ubuntu.com/ubuntu/ lunar-updates main restricted universe multiverse
