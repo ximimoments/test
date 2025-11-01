@@ -233,6 +233,10 @@ deb http://security.ubuntu.com/ubuntu jammy-security multiverse
 # see the sources.list(5) manual.
 
 
+<img width="1366" height="768" alt="Screenshot from 2025-11-01 16-28-08" src="https://github.com/user-attachments/assets/7026dbfe-94b8-48fe-9066-7065f24d7d62" />
+
+
+<img width="1366" height="768" alt="Screenshot from 2025-11-01 16-28-16" src="https://github.com/user-attachments/assets/56258512-b02c-4974-b23a-40893c13f178" />
 
 sudo apt update
 sudo apt full-upgrade -y
