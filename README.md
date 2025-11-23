@@ -244,3 +244,4 @@ sudo apt dist-upgrade -y
 sudo reboot
 
 [![Repository status](https://repology.org/badge/repository-big/aur.svg)](https://repology.org/repository/aur)
+[![Packaging status](https://repology.org/badge/vertical-allrepos/katifetch.svg)](https://repology.org/project/katifetch/versions)
