@@ -1,5 +1,4 @@
 # test
-nia
 
 ![Stars](https://img.shields.io/github/stars/ximimoments/katifetch?style=for-the-badge)
 ![License](https://img.shields.io/github/license/ximimoments/katifetch?style=for-the-badge)
