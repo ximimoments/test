@@ -242,3 +242,5 @@ sudo apt update
 sudo apt full-upgrade -y
 sudo apt dist-upgrade -y
 sudo reboot
+
+[![Repository status](https://repology.org/badge/repository-big/aur.svg)](https://repology.org/repository/aur)
