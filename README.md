@@ -4,6 +4,8 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ximimoments&layout=compact&theme=radical)
 
+![Summary](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ximimoments&theme=dracula)
+
 ![Stars](https://img.shields.io/github/stars/ximimoments/katifetch?style=for-the-badge)
 ![License](https://img.shields.io/github/license/ximimoments/katifetch?style=for-the-badge)
 ![Repo size](https://img.shields.io/github/repo-size/ximimoments/katifetch?style=for-the-badge)
