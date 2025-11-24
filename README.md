@@ -1,5 +1,9 @@
 # test
 
+![My GitHub stats](https://github-readme-stats.vercel.app/api?username=ximimoments&show_icons=true&theme=radical)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ximimoments&layout=compact&theme=radical)
+
 ![Stars](https://img.shields.io/github/stars/ximimoments/katifetch?style=for-the-badge)
 ![License](https://img.shields.io/github/license/ximimoments/katifetch?style=for-the-badge)
 ![Repo size](https://img.shields.io/github/repo-size/ximimoments/katifetch?style=for-the-badge)
