@@ -254,3 +254,15 @@ sudo reboot
 
 
 [![Packaging status](https://repology.org/badge/vertical-allrepos/katifetch.svg)](https://repology.org/project/katifetch/versions)
+
+
+wget https://software.jaos.org/slackpacks/slackware64-15.0/slapt-get/slapt-get-0.11.10-x86_64-1.txz
+
+su -
+# (Introduce tu contraseña de root)
+installpkg slapt-get-*.txz
+
+nano /etc/slapt-get/slapt-getrc
+
+slapt-get --update
+slapt-get --install lightdm
