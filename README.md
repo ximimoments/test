@@ -310,3 +310,25 @@ ROCKY_SUPPORT_PRODUCT_VERSION="10.1"
 REDHAT_SUPPORT_PRODUCT="Rocky Linux"
 REDHAT_SUPPORT_PRODUCT_VERSION="10.1"
 ```
+ sudo dnf remove -y \
+anaconda \
+anaconda-install-env-deps \
+anaconda-core \
+anaconda-gui \
+anaconda-tui \
+anaconda-live \
+kexec-tools \
+libreoffice* \
+cheese \
+totem \
+rhythmbox \
+simple-scan \
+gnome-tour \
+gnome-user-docs \
+gnome-contacts \
+gnome-weather \
+gnome-maps \
+gnome-calendar \
+gnome-clocks
+
+sudo dnf autoremove -y
