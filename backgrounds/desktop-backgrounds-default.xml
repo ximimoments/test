@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+    <!-- Abstract 1 -->
+    <wallpaper deleted="false">
+        <name>Rocky Linux 10 Default Background - Abstract (1)</name>
+        <filename>/usr/share/backgrounds/rocky-default-10-abstract-1-time.xml</filename>
+        <options>zoom</options>
+        <author>Gwendolyn K.</author>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Rocky Linux 10 Default Background - Abstract (1) (Day)</name>
+        <filename>/usr/share/backgrounds/rocky-default-10-abstract-1-day.png</filename>
+        <options>zoom</options>
+        <author>Gwendolyn K.</author>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Rocky Linux 10 Default Background - Abstract (1) (Night)</name>
+        <filename>/usr/share/backgrounds/rocky-default-10-abstract-1-night.png</filename>
+        <options>zoom</options>
+        <author>Gwendolyn K.</author>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+    <!-- End Abstract 1 -->
+
+    <!-- Gemstone Skies -->
+    <wallpaper deleted="false">
+        <name>Rocky Linux 10 Default Background - Gemstone Skies</name>
+        <filename>/usr/share/backgrounds/rocky-default-10-gemstone-skies-time.xml</filename>
+        <options>zoom</options>
+        <author>Gwendolyn K.</author>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Rocky Linux 10 Default Background - Gemstone Skies (Day)</name>
+        <filename>/usr/share/backgrounds/rocky-default-10-gemstone-skies-day.png</filename>
+        <options>zoom</options>
+        <author>Gwendolyn K.</author>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Rocky Linux 10 Default Background - Gemstone Skies (Night)</name>
+        <filename>/usr/share/backgrounds/rocky-default-10-gemstone-skies-night.png</filename>
+        <options>zoom</options>
+        <author>Gwendolyn K.</author>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+    <!-- Gemstone Skies -->
+
+    <!-- Quartz Forest -->
+    <wallpaper deleted="false">
+        <name>Rocky Linux 10 Default Background - Quartz Forest</name>
+        <filename>/usr/share/backgrounds/rocky-default-10-quartz-forest-time.xml</filename>
+        <options>zoom</options>
+        <author>Kami (Kyren)</author>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Rocky Linux 10 Default Background - Quartz Forest (Day)</name>
+        <filename>/usr/share/backgrounds/rocky-default-10-quartz-forest-day.jpg</filename>
+        <options>zoom</options>
+        <author>Kami (Kyren)</author>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Rocky Linux 10 Default Background - Quartz Forest (Night)</name>
+        <filename>/usr/share/backgrounds/rocky-default-10-quartz-forest-night.jpg</filename>
+        <options>zoom</options>
+        <author>Kami (Kyren)</author>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+    <!-- Quartz Forest -->
+
+    <!-- Arizona Sun -->
+    <wallpaper deleted="false">
+        <name>Rocky Linux 10 Default Background - Arizona Sun</name>
+        <filename>/usr/share/backgrounds/rocky-default-10-arizona-time.xml</filename>
+        <options>zoom</options>
+        <author>Summer</author>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Rocky Linux 10 Default Background - Arizona Sunrise (Day)</name>
+        <filename>/usr/share/backgrounds/rocky-default-10-arizona-sunrise.jpg</filename>
+        <options>zoom</options>
+        <author>Summer</author>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Rocky Linux 10 Default Background - Arizona Sunset (Night)</name>
+        <filename>/usr/share/backgrounds/rocky-default-10-arizona-sunset.jpg</filename>
+        <options>zoom</options>
+        <author>Summer</author>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+    <!-- Arizona Sun -->
+
+    <!-- Sapphire -->
+    <wallpaper deleted="false">
+        <name>Rocky Linux 10 Default Background - Sapphire</name>
+        <filename>/usr/share/backgrounds/rocky-default-10-sapphire.xml</filename>
+        <options>zoom</options>
+        <author>Gwendolyn K.</author>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Rocky Linux 10 Default Background - Sapphire Light</name>
+        <filename>/usr/share/backgrounds/rocky-default-10-sapphire-light.xml</filename>
+        <options>zoom</options>
+        <author>Gwendolyn K.</author>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+    <!-- End Sapphire -->
+
+    <!-- Abstract 2-5 -->
+    <wallpaper deleted="false">
+        <name>Rocky Linux 10 Default Background - Abstract 2</name>
+        <filename>/usr/share/backgrounds/rocky-default-10-abstract-2.xml</filename>
+        <options>zoom</options>
+        <author>Natalie Forde</author>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Rocky Linux 10 Default Background - Abstract 3</name>
+        <filename>/usr/share/backgrounds/rocky-default-10-abstract-3.xml</filename>
+        <options>zoom</options>
+        <author>Natalie Forde</author>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Rocky Linux 10 Default Background - Abstract 4</name>
+        <filename>/usr/share/backgrounds/rocky-default-10-abstract-4.xml</filename>
+        <options>zoom</options>
+        <author>Natalie Forde</author>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+    <wallpaper deleted="false">
+        <name>Rocky Linux 10 Default Background - Abstract 5</name>
+        <filename>/usr/share/backgrounds/rocky-default-10-abstract-5.xml</filename>
+        <options>zoom</options>
+        <author>Natalie Forde</author>
+        <license>CC-BY-SA 4.0</license>
+    </wallpaper>
+    <!-- End Abstract 2-5 -->
+</wallpapers>
