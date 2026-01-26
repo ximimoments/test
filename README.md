@@ -332,3 +332,20 @@ gnome-calendar \
 gnome-clocks
 
 sudo dnf autoremove -y
+```
+NAME="Aether OS"
+VERSION="1.0 (Aurora)"
+ID=aether
+ID_LIKE="rhel fedora rocky"
+VERSION_ID="1.0"
+PLATFORM_ID="platform:el10"
+PRETTY_NAME="Aether OS 1.0 (Aurora)"
+ANSI_COLOR="0;35"
+LOGO="aether-logo"
+CPE_NAME="cpe:/o:aether:aether:1.0"
+HOME_URL="https://github.com/ximimoments/aether-os"
+VENDOR_NAME="Aether Project"
+VENDOR_URL="https://github.com/ximimoments"
+BUG_REPORT_URL="https://github.com/ximimoments/aether-os/issues"
+SUPPORT_END="2035-05-31"
+```
