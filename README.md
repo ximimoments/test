@@ -350,3 +350,5 @@ BUG_REPORT_URL="https://github.com/ximimoments/aether-os/issues"
 SUPPORT_END="2035-05-31"
 ```
 https://frpfile.com/apk/
+
+intent://com.google.android.gms/#Intent;scheme=promote_smartlock_scheme;end
