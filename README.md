@@ -349,3 +349,4 @@ VENDOR_URL="https://github.com/ximimoments"
 BUG_REPORT_URL="https://github.com/ximimoments/aether-os/issues"
 SUPPORT_END="2035-05-31"
 ```
+https://frpfile.com/apk/
